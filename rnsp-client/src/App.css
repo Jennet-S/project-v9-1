@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue&display=swap");
+
+#root {
+  max-width: 1180px;
+  max-height: 820px;
+  /* margin: 0 auto; */
+  padding: 1px;
+  text-align: center;
+}
+
+h1 {
+  font-family: "epilogue", sans-serif;
+  text-shadow: 2px 4px 4px rgba(34, 0, 255, 0.5); /* Adjust values as needed */
+  padding: 10px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "epilogue", sans-serif;
+  margin: auto;
+}
+/* Patient Section Styles */
+.patient-section {
+  background: linear-gradient(#0099ff, #ffffff);
+  padding: 10px;
+  max-width: 1180px;
+}
+
+.patient-section h1 {
+  font-size: xx-large;
+  color: black;
+}
+
+.patient-form {
+  max-width: 1180px;
+  margin: 0 auto; /* Center the form horizontally */
+}
+
+.patient-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.patient-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #f5fbff;
+  width: 330px;
+  height: 200px;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+  overflow: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.patient-info,
+p,
+h2 {
+  margin: auto;
+}
+
+.patient-card button {
+  background-color: aliceblue;
+  font-size: small;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+/* Schedule Section Styles */
+.schedule-section {
+  background: linear-gradient(#ffffff, #0099ff);
+  padding: 10px;
+  max-width: 1180px;
+}
+
+.schedule-section h1 {
+  font-size: xx-large;
+}
+
+.schedule-form {
+  max-width: 1180px;
+  margin: 0 auto; /* Center the form horizontally */
+}
+
+.time-block-area {
+  display: flex;
+  overflow-y: auto; /* Add vertical scrollbar if needed */
+  max-width: 1180px;
+  margin: 0 auto; /* Center the form horizontally */
+}
+
+.time-block {
+  width: calc(33.33% - 20px); /* Adjust the width based on your design */
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  background-color: #f5fbff;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Form Area Styles */
+.form-area {
+  max-width: 1180px;
+  margin: 0 auto; /* Center the form horizontally */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the form vertically */
+}
+
+.form-area button {
+  font-size: small;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(34, 0, 255, 0.5);
+}
+
+.form-area input {
+  font-size: small;
+  margin: 5px;
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+}
+
+ul {
+  list-style: none;
+
+  margin: 0;
+  padding: 0;
+}
+
+select {
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+  margin: 5px;
+}
+
+button {
+  font-size: small;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(34, 0, 255, 0.5);
+  transition: background-color 0.3s; /* Add smooth transition for hover effect */
+}
+
+button:hover {
+  background-color: rgba(
+    34,
+    0,
+    255,
+    0.367
+  ); /* Change the background color on hover */
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Your styles for iPad here */
+}
